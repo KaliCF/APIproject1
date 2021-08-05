@@ -1,0 +1,53 @@
+body{
+    background-image: url(https://thumbs.dreamstime.com/b/crinkle-paper-29357920.jpg);
+}
+
+h1{
+    text-align: center;
+    margin: 100px;
+    font-style: italic;
+    font: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: auto;
+}
+
+.airDes{
+    height: 1000px;
+    width: 1600px;
+    background-image: url(https://www.ghibli.jp/gallery/laputa036.jpg);
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.redWing{
+    height: 1000px;
+    width: 1600px;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    background-image: url(https://www.ghibli.jp/gallery/porco002.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.boat{
+    height: 1000px;
+    width: 1600px;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    background-image:url(https://www.ghibli.jp/gallery/ponyo044.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
