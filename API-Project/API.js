@@ -9,9 +9,12 @@ const display = (vehicles) => {
     let rW = vehicles[1].description
     let sB = vehicles[2].description
 
-    document.getElementById('ve1').innerText = vehicleName1 + '. ' + aDg
-    document.getElementById('ve2').innerText = vehicleName2 + '. ' + rW
-    document.getElementById('ve3').innerText = vehicleName3 + '. ' + sB
+    document.getElementById('ve1').innerText = vehicleName1 //+ '. ' + aDg
+    document.getElementById('ve1Description').innerText = aDg
+    document.getElementById('ve2').innerText = vehicleName2 //+ '. ' + rW
+    document.getElementById('ve2Description').innerText = rW
+    document.getElementById('ve3').innerText = vehicleName3 //+ '. ' + sB
+    document.getElementById('ve3Description').innerText = sB
 }
 
 fetch(baseURL)
